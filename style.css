@@ -33,29 +33,36 @@
 /* div { overflow: hidden; }
 
 /************************* YOUR SETTINGS *************************/
-
-/* add your css here, feel free to use comments and order them logically for better readability */
-:root {
-   
-}
-
-
 body {
    display:grid;
    grid-template-areas: 
-   "header"
+   "header header"
    "nav main"
-   "footer";
-   grid-template-columns: ;
+   "footer footer";
+   grid-template-columns: 140px 1fr ;
+   grid-template-rows: 100px 1fr;
+   
 }
 
 header{
    grid-area: header;
+   font-size: 50px;
+   padding-left: 150px;
+   padding-top: 20px;
+   font-family: 'Courier New', Courier, monospace;
+   color: darkcyan;
+   background-color: lightgreen;
+   
 }
 nav {
    grid-area: nav;
+   background-color:;
+
 }
 main {
    grid-area: main;
 }
-footer {grid-area: main;}
+footer {
+   grid-area: footer;
+}
+
