@@ -38,10 +38,15 @@ body {
    grid-template-areas: 
    "logo header"
    "nav main"
-   "footer footer";
+   "nav footer";
    grid-template-columns: 180px 1fr ;
-   grid-template-rows: 100px 600px 100px;
+   grid-template-rows: 100px 800px 100px;
    background-color: lightgreen;
+}
+
+h1{
+   
+
 }
 
 header{
@@ -67,6 +72,7 @@ main {
    background-color: white;
    border-radius: 20px;
    margin: 20px;
+   grid-template-areas:;
    
 }
 footer {
