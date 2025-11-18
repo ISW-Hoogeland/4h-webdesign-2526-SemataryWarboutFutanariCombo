@@ -131,7 +131,19 @@ article img {
    padding-left: 10px;
    margin: 10px;
 }
-h4
+h4 {
+   width: 100%;
+   padding-left: 250px;
+}
+article p {
+   float: left;
+   width: 50%;
+   max-width: 250px;
+}
+article img {
+   float: left;
+   width: 40%;
+}
 footer {
    grid-area: footer;
    background-color: white;
