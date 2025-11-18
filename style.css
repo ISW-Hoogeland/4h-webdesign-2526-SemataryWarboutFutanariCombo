@@ -100,6 +100,7 @@ main {
 }
 h2 {
    width: 100%;
+   padding-left: 250px;
 }
 article p {
    float: left;
@@ -110,8 +111,27 @@ article img {
    float: left;
    width: 40%;
    max-width: 250px;
+   padding-left: 10px;
+
 }
-main image 
+
+h3 {
+   width: 100%;
+   padding-left: 250px;
+}
+article p {
+   float: left;
+   width: 50%;
+   max-width: 300px;
+}
+article img {
+   float: left;
+   width: 40%;
+   max-width: 250px;
+   padding-left: 10px;
+   margin: 10px;
+}
+h4
 footer {
    grid-area: footer;
    background-color: white;
