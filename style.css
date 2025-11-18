@@ -105,6 +105,17 @@ main {
 
    
 }
+h1 {
+   width: 100%;
+   padding-left: 50px;
+}
+
+article p {
+   float: left;
+   width: 50%;
+   max-width: 300px;
+   padding-left: 50px;
+}
 h2 {
    width: 100%;
    padding-left: 250px;
